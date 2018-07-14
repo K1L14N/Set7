@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Set 7
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <form #formCard="ngForm" (ngSubmit)="cardToCode(inputCard)">
+    <ion-item color="light">
+      <ion-label>Carte</ion-label>
+      <ion-input type="text" name="card" [(ngModel)]="inputCard"></ion-input>
+    </ion-item>
+
+    <button ion-button type="submit" color="secondary" block>Convertir</button>
+  </form>
+  <ion-input disabled color="dark" [(ngModel)]="code"></ion-input>
+
+  <form #formCode="ngForm" (ngSubmit)="codeToCard(inputCode)">
+    <ion-item color="light">
+      <ion-label>Code</ion-label>
+      <ion-input type="text" name="code" [(ngModel)]="inputCode"></ion-input>
+    </ion-item>
+
+    <button ion-button type="submit" color="secondary" block>Convertir</button>
+  </form>
+  <ion-input disabled color="dark" [(ngModel)]="card"></ion-input>
+</ion-content>

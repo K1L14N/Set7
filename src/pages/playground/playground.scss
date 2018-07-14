@@ -1,0 +1,47 @@
+page-playground {
+  .content {
+    background-color: darkkhaki;
+  }
+  .card {
+    align-content: center;
+    text-align: center;
+    height: 80px;
+    border-radius: 5px;
+  }
+  .selected {
+    border-style: solid;
+    border-color: darkgreen;
+    border-radius: 10px;
+  }
+  .cheat {
+    border-style: dashed;
+    border-color: #f53d3d;
+    border-radius: 10px;
+  }
+  .action-button {
+    height: 50px;
+  }
+  .card-image {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* margin-bottom: 50px;
+    margin-left: 22px;
+    padding-top: 5px; */
+    height: 65px;
+    width: 70%;
+
+  }
+  .tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 70px;
+  }
+}
+
