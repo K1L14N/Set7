@@ -2,6 +2,8 @@
 # Set7
 A funny mobile game that requires speed lookout and fast memory.
 
+Wow this dot thing!
+
 ## Technologies
 **[Ionic](https://ionicframework.com)** - **[Angular](https://angular.io)**
 
